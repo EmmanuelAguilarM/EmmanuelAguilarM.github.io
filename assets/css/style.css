@@ -1,0 +1,130 @@
+
+/*===========================================================
+		I N I C I O
+ ===========================================================*/
+#top {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../images/jpg/fondo.jpg") !important;
+}
+h2 {
+    font-weight: bold;
+}
+#top h2 {
+    color: #fff !important;
+}
+#top p {
+    font-size: 1.3em;
+    font-style: oblique;
+    font-weight: normal;
+    color: #fff !important;
+}
+#top a.button.scrolly {
+    border: 1px solid #fff;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+}
+#top a.button.scrolly:hover {
+    border: 1px solid #00c306;
+    background: #00c306;
+    font-weight: normal;
+    text-decoration: none;
+}
+.icon:hover {
+    color: #00c306;
+}
+.scrolly.active .icon::before {
+    color: #00c306 !important;
+}
+
+/*===========================================================
+		P O R T A F O L I O
+ ===========================================================*/
+#portfolio h3 a:hover {
+    color: #00c306;
+}
+#portfolio h3 a {
+    width: 100%;
+    display: block;
+    padding: 1em 0px;
+    font-weight: normal;
+}
+#portfolio h3 a:hover {
+    background: #00c306;
+    color: #fff;
+}
+#portfolio article.item > header {
+    padding: 0px;
+}
+
+
+/*===========================================================
+		S O B R E   M I
+ ===========================================================*/
+.cont_divisor_perfil p {
+    text-align: justify;
+    margin-bottom: 0px;
+}
+.cont_txt_perfil {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.cont_perfil .icon.brands, 
+.cont_perfil .icon.solid {
+    font-size: 70px;
+}
+.cont_perfil section ul {
+    list-style: none;
+    padding: 0px;
+}
+.cont_perfil section ul li {
+    padding: 0px;
+    font-style: italic;
+    font-weight: 600;
+}
+.cont_perfil > .container {
+    margin-top: 40px;
+}
+.cont_perfil > .container header h3 {
+    font-weight: normal;
+}
+.cont_perfil > .container > .row {
+    margin-top: 0px;
+}
+
+
+/*===========================================================
+		C O N T A C T O
+ ===========================================================*/
+.cont_contacto .icon {
+    font-size: 40px;
+}
+
+/*===========================================================
+		R E S P O N S I V E
+ ===========================================================*/
+ @media (max-width: 736px){
+    .cont_perfil > .container > .row > .skills_txt {
+        margin-top: 35px;
+    }
+    .cont_perfil > .container > .row > .skills_txt header {
+        margin: 0 0 1em 0;
+    }
+ }
+ @media (max-width: 460px){
+ 	.cont_divisor_perfil img {
+    	width: 100%;
+	}
+	.cont_contacto .icon {
+    	font-size: 28px;
+	}
+ }
+ @media (max-width: 330px){
+ 	.cont_contacto .icon {
+    	font-size: 25px;
+	}
+ }
