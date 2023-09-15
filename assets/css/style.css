@@ -7,6 +7,9 @@
     display: flex;
     align-items: center;
     background-image: url("../../images/jpg/fondo.jpg") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed;
 }
 h2 {
     font-weight: bold;
